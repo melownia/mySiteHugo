@@ -39,6 +39,14 @@ theme = "LoveIt"
     url = "/categories/"
     title = ""
     weight = 3
+  [[menu.main]]
+    identifier = "github"
+    pre = "<i class=\"fab fa-github fa-fw\"></i>"
+    post = ""
+    name = ""
+    url = "https://github.com/swallowblack"
+    title = "GitHub"
+    weight = 4
 
 [params]
   #  LoveIt 主题版本
