@@ -47,6 +47,15 @@ theme = "LoveIt"
     url = "https://github.com/swallowblack"
     title = "GitHub"
     weight = 4
+  [[menu.main]]
+    identifier = "rss"
+    pre = "<i class=\"fa fa-rss fa-fw\"></i>"
+    post = ""
+    name = ""
+    url = "https://swallowblack.github.io/posts/index.xml"
+    title = "RSS"
+    weight = 5
+
 
 [params]
   #  LoveIt 主题版本
@@ -533,7 +542,7 @@ theme = "LoveIt"
 
 # 作者配置
 [author]
-  name = "Meng"
+  name = "Meng-Z"
   email = ""
   link = ""
 
