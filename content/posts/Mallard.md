@@ -1,10 +1,19 @@
 ---
-title: 野鸭
-date: 2020-02-03 15:33:21
+title: 野鸭|mallard
+date: 2020-02-03T15:33:21-04:00
 tags: [mallard]
 categories: [nature]
 draft: false
+toc:
+  enable: false
+math:
+  enable: false
+lightgallery: false
+license: ""
+
 ---
+<img src="https://i.loli.net/2020/02/24/UyHka2GSt8mOQwR.jpg"/>
+A pair of mallard at Washington Park 2/3/2020
 
 今天看到野鸭回来了.
 
@@ -16,9 +25,8 @@ draft: false
 另一种说法为本文中的野鸭（mallard），因为相比鱼鹰(Osprey)，其叫声更近“关关”。 这两种鸟恰好在附近公园里都出现过，从诗的意境上，似乎野鸭更适合些，鱼鹰看起来太过凶猛，虽然它们都经常成对出现。鱼鹰对应的鸟还有鸬鹚，看起来不像。
 
 <img src="https://i.loli.net/2020/02/24/UPnZ8VJwyufd7q5.jpg"/>
+4/19/2019, male&emsp;&emsp;
 
 <img src="https://i.loli.net/2020/02/24/NiCaZ3LSkuQVgde.jpg"/>
+4/19/2019, female&emsp;&emsp;
 
-<img src="https://i.loli.net/2020/02/24/UyHka2GSt8mOQwR.jpg"/>
-
-L: 4/19/2019, male&emsp;&emsp;M:4/19/2019, female&emsp;&emsp;R: 2/3/2020
