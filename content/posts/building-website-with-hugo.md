@@ -2,7 +2,6 @@
 title: "Building Website With Hugo|用Hugo框架建博客网站"
 subtitle: ""
 date: 2020-10-01T23:06:53-04:00
-lastmod: 2020-10-01T23:06:53-04:00
 draft: false
 author: "Meng"
 authorLink: ""

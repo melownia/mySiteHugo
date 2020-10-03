@@ -8,6 +8,10 @@ hasCJKLanguage = true
 # 网站标题
 title = "Meng-Z"
 
+# whether to use git commit log
+# 是否使用 git 信息
+enableGitInfo = true    # 配合自动更新修改日期的需求
+
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "LoveIt"
 
@@ -587,3 +591,9 @@ theme = "LoveIt"
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
 
+# 自动更新修改日期
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
