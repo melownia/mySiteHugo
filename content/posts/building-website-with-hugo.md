@@ -134,7 +134,7 @@ cp themes/LoveIt/archetypes/default.md archetypes
 
 #### 3.5 如何添加站内搜索功能
 
-此LoveIt 版本自带搜索功能，非常方便，只需使用LoveIt主题的默认配置即可。有兴趣可以自己优化。
+此LoveIt版本自带搜索功能，非常方便，只需使用LoveIt主题的默认配置即可。主题提供了另外一种方式，没有试过，默认的方式目前用着还好。
 
 ### 4. 如何在menu bar添加Github和RSS链接
 
