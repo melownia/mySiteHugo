@@ -3,7 +3,10 @@ title: "Markdown Basics"
 date: 2019-07-15T09:53:50-04:00
 tags: [markdown]
 categories: [tech doc]
+featuredImage: ""
+featuredImagePreview: "https://tva1.sinaimg.cn/large/007S8ZIlly1gjcpomxgqzj30zk0kn3zz.jpg"
 draft: false
+lightgallery: true
 ---
 
 ## Headers
@@ -40,19 +43,27 @@ _Hello_
 <!--more-->
 
 ## Image  
+Note: 为避免冲突，注意下面代码的<前面多了一个空格，实际用是不需要。
 
-```markdown
-![This is a test Picture](https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg "Moon")
+```Markdown
+{{ < image src="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg" caption="Moon" >}}
+
+{{ < image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmw9ep28j31900u07k9.jpg" caption="Lighthouse" src_s="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmx0bf63j30b407emxs.jpg" src_l="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmxx8j8fj31900u0kjl.jpg" >}}
 ```
 
-![This is a test Picture](https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg "Moon")
+{{< image src="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg" caption="Moon" >}}
+
+{{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmw9ep28j31900u07k9.jpg" caption="Lighthouse (`image`)" src_s="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmx0bf63j30b407emxs.jpg" src_l="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmxx8j8fj31900u0kjl.jpg" >}}
+
 
 Linking Images
 
-```markdown
-[<img width= 30% src=https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg />](https://swallowblack.github.io/osprey-back/)
+```Markdown
+{{ < figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://swallowblack.github.io/osprey-back/" width=30% >}}
 ```
-[<img width= 30% src=https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg />](https://swallowblack.github.io/osprey-back/)
+
+{{< figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://swallowblack.github.io/osprey-back/" width=30% >}}
+
 
 ## Code 
 
