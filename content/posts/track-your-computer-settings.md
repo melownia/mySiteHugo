@@ -4,11 +4,13 @@ date: 2020-02-17T21:14:31-04:00
 tags: [git]
 categories: [tech doc]
 draft: false
+toc:
+  enable: false
 ---
 
-As a beginner, I manually add several dotfiles to the Repo like this.
+As a beginner, I manually add several dotfiles to the Github repo like this.
 
-```bash
+```shell
 # Create a Repo
 git clone git@github.com:<username>/dotfiles.git
 cd dotfiles
