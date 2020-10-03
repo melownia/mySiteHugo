@@ -28,7 +28,6 @@ git config --global merge.conflictstyle diff3
 git config --list
 git config --global core.editor "mvim -f"
 ```
-<!--more-->
 
 ## Create A Repo
 Method1: Create a new directory and “git init” in the dir.

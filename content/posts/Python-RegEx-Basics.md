@@ -24,7 +24,6 @@ import re
 
 re.search(r"r[A-Z]n", "run")
 
-<!--more-->
 
 ### 预定义字符集
 
