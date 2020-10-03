@@ -55,6 +55,9 @@ Demo: https://swallowblack.github.io/
 #### 3.1 在本地测试
 
 ```shell
+# create a new post
+hugo new posts/first_post.md
+# 在本地运行
 hugo serve
 # 或者：
 # -D: buildDraft 显示标记为草稿的博文
