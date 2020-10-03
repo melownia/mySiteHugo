@@ -42,26 +42,30 @@ _Hello_
 
 
 ## Image  
-Note: 为避免冲突，注意下面代码的<前面多了一个空格，实际用是不需要。
 
 ```Markdown
-{{ < image src="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg" caption="Moon" >}}
+{?{}{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg" caption="wheat" >}}
 
-{{ < image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmw9ep28j31900u07k9.jpg" caption="Lighthouse" src_s="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmx0bf63j30b407emxs.jpg" src_l="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmxx8j8fj31900u0kjl.jpg" >}}
+{?{}{< image src=""https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg caption="sunflower" >}}
 ```
 
-{{< image src="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg" caption="Moon" >}}
+{{< admonition tip "This is a tip" false >}}
+此处需要用到{?}转义: {?{}?{?{}{?}} => {.
+{{< /admonition>}}
 
-{{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmw9ep28j31900u07k9.jpg" caption="Lighthouse (`image`)" src_s="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmx0bf63j30b407emxs.jpg" src_l="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmxx8j8fj31900u0kjl.jpg" >}}
+
+{{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg" caption="wheat" >}}
+
+{{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" caption="sunflower" >}}
 
 
 Linking Images
 
 ```Markdown
-{{ < figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://swallowblack.github.io/osprey-back/" width=30% >}}
+{?{}{< figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://swallowblack.github.io/osprey-back/" width=50% >}}
 ```
 
-{{< figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://swallowblack.github.io/osprey-back/" width=30% >}}
+{{< figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://swallowblack.github.io/osprey-back/" width=50% >}}
 
 
 ## Code 
@@ -155,6 +159,31 @@ $$E=mc^2$$
 \. 
 \! 
 ```
+\\ 
+\` 
+\* 
+\_ 
+\{} 
+\[] 
+\() 
+\# 
+\+ 
+\- 
+\. 
+\! 
+\\ 
+\` 
+\* 
+\_ 
+\{} 
+\[] 
+\() 
+\# 
+\+ 
+\- 
+\. 
+\! 
+
 ##  URLs and Email Addresses
 
 ```markdown

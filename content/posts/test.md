@@ -48,4 +48,6 @@ kdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddalllllllllllllllllfj
   <img  src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width=200  >
 {{</style>}}
 
-
+```Markdown
+{?{}{<image src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" caption="for test">}}
+```

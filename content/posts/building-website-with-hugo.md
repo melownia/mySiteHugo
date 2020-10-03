@@ -172,11 +172,10 @@ cp themes/LoveIt/archetypes/default.md archetypes
 在.md文章中，图片的引用需要用 image shortcode 的形式，如
 
 ```Markdown
-{{ < image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg" caption="Wheat"  >}}
+{?{}{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcymbcf2hj30qo0icaer.jpg" caption="Childhood" >}}
 ```
-注意：为避免冲突，上面的代码中<前面多了一个空格。
 
-{{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg" caption="Wheat"  >}}
+{{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcymbcf2hj30qo0icaer.jpg" caption="Childhood" >}}
 
 ### 6. 如何设置文章的特色图片featured image
 
