@@ -32,19 +32,17 @@ kdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddalllllllllllllllllfj
   <img  src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width=32% style="display: inline-block" >
   <img  src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width=32% style="display: inline-block" >
   <img  src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width=32% style="display: inline-block" >
-  <figcaption>three moons</figcaption>
+  <figcaption>Osprey(figure )<figcaption>
 </figure>
 
 #### Method 2
-<div>
+<div style="margin: 0 0.5%">
     {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="49.5%" >}}
     {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="49.5%" >}}
     {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="49.5%" >}}
     {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="49.5%" >}}
     {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="49.5%" >}}
     {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="49.5%" >}}
+    <p style="text-align: center">Sunflower (image shortcode)</p>
 </div>
 
-grid 3: 32.8%
-
-grid 2: 49.5%
