@@ -26,28 +26,25 @@ license: ""
 
 This post is for test.
 kdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddalllllllllllllllllfjaaaaaaaaaaaaaaaaaaaaaaaaaaadk
-<figure>
-  <img  src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width=30% style="display: inline-block" >
-  <img  src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width=30% style="display:    inline-block" >
-  <img  src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width=30% style="display: inline-block" >
+
+#### Method 1
+<figure> 
+  <img  src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width=32% style="display: inline-block" >
+  <img  src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width=32% style="display: inline-block" >
+  <img  src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width=32% style="display: inline-block" >
   <figcaption>three moons</figcaption>
 </figure>
 
-<div >
-    <a href="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg">
-        <img "display: inline-block" src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width=200 >
-    </a>
-     <a href="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg">
-        <img "display: inline-block" src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width=200 >
-    </a>
+#### Method 2
+<div>
+    {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="49.5%" >}}
+    {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="49.5%" >}}
+    {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="49.5%" >}}
+    {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="49.5%" >}}
+    {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="49.5%" >}}
+    {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="49.5%" >}}
 </div>
 
-{{<style "display: inline-block">}}
-  <img  src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width=200  >
-  <img  src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width=200  >
-  <img  src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width=200  >
-{{</style>}}
+grid 3: 32.8%
 
-```Markdown
-{?{}{<image src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" caption="for test">}}
-```
+grid 2: 49.5%
