@@ -201,18 +201,16 @@ Linking Images with figure shortcode
 将可以使用raw html syntax.
 
 ```html
-<div style="margin: 16px 1%">
-    {?{}{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="32.8%%" >}}
-    {?{}{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="32.8%%" >}}
-    {?{}{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="32.8%%" >}}
-    <p style="text-align: center"> Sunflower </p>
+<div>
+    {?{}{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="200px" >}}
+    {?{}{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="200px" >}}
+    {?{}{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="200px" >}}
 </div>
 ```
-<div style="margin: 16px 1%">
-    {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="32.8%%" >}}
-    {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="32.8%%" >}}
-    {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="32.8%%" >}}
-    <p style="text-align: center"> Sunflower </p>
+<div>
+    {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="200px" >}}
+    {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="200px" >}}
+    {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="200px" >}}
 </div>
 
 
