@@ -165,17 +165,34 @@ cp themes/LoveIt/archetypes/default.md archetypes
 
 ### 5. 如何使用lightgallery
 
-在文章的前置参数中
+在文章的前置参数中**lightgallery**: 如果设为 `true`, 图片的引用采用[image shortcode](https://hugoloveit.com/theme-documentation-extended-shortcodes/#image)的形式， 文章中的图片在鼠标点击后将可以按照画廊形式呈现。
 
-**lightgallery**: 如果设为 `true`, 文章中的图片将可以按照画廊形式呈现.
-
-在.md文章中，图片的引用需要用 image shortcode 的形式，如
 
 ```Markdown
-{?{}{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcymbcf2hj30qo0icaer.jpg" caption="Childhood" >}}
+{?{}{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg" caption="wheat" >}}
+
+{?{}{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" caption="sunflower" >}}
 ```
 
-{{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcymbcf2hj30qo0icaer.jpg" caption="Childhood" >}}
+{{< admonition tip "This is a tip" false >}}
+此处需要用到{?}转义: {?{}?{?{}{?}} => {.
+{{< /admonition>}}
+
+
+{{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg" caption="wheat" >}}
+
+{{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" caption="sunflower" >}}
+
+
+Linking Images
+
+```Markdown
+{?{}{< figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://swallowblack.github.io/osprey-back/" width=50% >}}
+```
+
+{{< figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://swallowblack.github.io/osprey-back/" width=50% >}}
+
+
 
 ### 6. 如何设置文章的特色图片featured image
 

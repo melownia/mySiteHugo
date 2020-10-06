@@ -44,29 +44,40 @@ _Hello_
 ## Image  
 
 ```Markdown
-{?{}{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg" caption="wheat" >}}
-
-{?{}{< image src=""https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg caption="sunflower" >}}
+![Chilehood](https://tva1.sinaimg.cn/large/007S8ZIlly1gjcymbcf2hj30qo0icaer.jpg)
 ```
 
-{{< admonition tip "This is a tip" false >}}
-此处需要用到{?}转义: {?{}?{?{}{?}} => {.
-{{< /admonition>}}
+![Chilehood](https://tva1.sinaimg.cn/large/007S8ZIlly1gjcymbcf2hj30qo0icaer.jpg)
 
 
-{{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg" caption="wheat" >}}
+Markdown also support raw html syntax:
 
-{{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" caption="sunflower" >}}
-
-
-Linking Images
-
-```Markdown
-{?{}{< figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://swallowblack.github.io/osprey-back/" width=50% >}}
+```html
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg"
+    width= 200px
+    alt="Sunflower"
+    style="float: left; margin: 5px;" />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg"
+    width= 200px
+    alt="Sunflower"
+    style="float: left; margin: 5px;" />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg"
+    width= 200px
+    alt="Sunflower"
+    style="margin: 5px;" />
 ```
-
-{{< figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://swallowblack.github.io/osprey-back/" width=50% >}}
-
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg"
+    width= 200px
+    alt="Sunflower"
+    style="float: left; margin: 5px;" />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg"
+    width= 200px
+    alt="Sunflower"
+    style="float: left; margin: 5px;" />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg"
+    width= 200px
+    alt="Sunflower"
+    style="margin: 5px;" />
 
 ## Code 
 
