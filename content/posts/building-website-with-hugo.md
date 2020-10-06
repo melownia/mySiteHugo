@@ -184,7 +184,7 @@ cp themes/LoveIt/archetypes/default.md archetypes
 {{< image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" caption="sunflower" >}}
 
 
-Linking Images
+Linking Images with figure shortcode
 
 ```Markdown
 {?{}{< figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://swallowblack.github.io/osprey-back/" width=50% >}}
@@ -192,6 +192,28 @@ Linking Images
 
 {{< figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://swallowblack.github.io/osprey-back/" width=50% >}}
 
+如果在站点配置中设置
+```shell
+[markup.goldmark.renderer]
+      # 是否在文档中直接使用 HTML 标签
+      unsafe = true
+```
+将可以使用raw html syntax.
+
+```html
+<div style="margin: 16px 1%">
+    {?{}{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="32.8%%" >}}
+    {?{}{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="32.8%%" >}}
+    {?{}{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="32.8%%" >}}
+    <p style="text-align: center"> Sunflower </p>
+</div>
+```
+<div style="margin: 16px 1%">
+    {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="32.8%%" >}}
+    {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="32.8%%" >}}
+    {{<image src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" width="32.8%%" >}}
+    <p style="text-align: center"> Sunflower </p>
+</div>
 
 
 ### 6. 如何设置文章的特色图片featured image
