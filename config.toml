@@ -6,7 +6,7 @@ languageCode = "zh-CN"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 # 网站标题
-title = "MELO米禾"
+title = "MELO|米禾"
 
 # whether to use git commit log
 # 是否使用 git 信息
@@ -48,7 +48,7 @@ theme = "LoveIt"
     pre = "<i class=\"fab fa-github fa-fw\"></i>"
     post = ""
     name = ""
-    url = "https://github.com/swallowblack"
+    url = "https://github.com/melaownia"
     title = "GitHub"
     weight = 4
   [[menu.main]]
@@ -56,7 +56,7 @@ theme = "LoveIt"
     pre = "<i class=\"fa fa-rss fa-fw\"></i>"
     post = ""
     name = ""
-    url = "https://swallowblack.github.io/posts/index.xml"
+    url = "https://melownia.github.io/posts/index.xml"
     title = "RSS"
     weight = 5
 
@@ -128,7 +128,7 @@ theme = "LoveIt"
       # LOGO 的 URL
       logo = ""
       # 标题名称
-      name = "Meng-Z"
+      name = "MELO|米禾"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
@@ -546,7 +546,7 @@ theme = "LoveIt"
 
 # 作者配置
 [author]
-  name = "MELO米禾"
+  name = "MELO|米禾"
   email = ""
   link = ""
 
