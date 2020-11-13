@@ -6,7 +6,7 @@ languageCode = "zh-CN"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 # 网站标题
-title = "Meng-Z"
+title = "MELO米禾"
 
 # whether to use git commit log
 # 是否使用 git 信息
@@ -546,7 +546,7 @@ theme = "LoveIt"
 
 # 作者配置
 [author]
-  name = "Meng-Z"
+  name = "MELO米禾"
   email = ""
   link = ""
 
