@@ -6,7 +6,7 @@ languageCode = "zh-CN"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 # 网站标题
-title = "Meng's BLOG"
+title = "Monica's Blog"
 
 # whether to use git commit log
 # 是否使用 git 信息
@@ -48,7 +48,7 @@ theme = "LoveIt"
     pre = "<i class=\"fab fa-github fa-fw\"></i>"
     post = ""
     name = ""
-    url = "https://github.com/melaownia"
+    url = "https://github.com/monchao"
     title = "GitHub"
     weight = 4
   [[menu.main]]
@@ -128,7 +128,7 @@ theme = "LoveIt"
       # LOGO 的 URL
       logo = ""
       # 标题名称
-      name = "Meng's Blog"
+      name = "Monica's Blog"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
@@ -546,7 +546,7 @@ theme = "LoveIt"
 
 # 作者配置
 [author]
-  name = "Meng"
+  name = "Monica"
   email = ""
   link = ""
 
