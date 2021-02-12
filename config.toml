@@ -1,4 +1,4 @@
-baseURL = "https://nonizhao.github.io/"
+baseURL = "https://monizhao.github.io/"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写
@@ -48,7 +48,7 @@ theme = "LoveIt"
     pre = "<i class=\"fab fa-github fa-fw\"></i>"
     post = ""
     name = ""
-    url = "https://github.com/nonizhao"
+    url = "https://github.com/monizhao"
     title = "GitHub"
     weight = 4
   [[menu.main]]
@@ -56,7 +56,7 @@ theme = "LoveIt"
     pre = "<i class=\"fa fa-rss fa-fw\"></i>"
     post = ""
     name = ""
-    url = "https://nonizhao.github.io/posts/index.xml"
+    url = "https://monizhao.github.io/posts/index.xml"
     title = "RSS"
     weight = 5
 
@@ -204,7 +204,7 @@ theme = "LoveIt"
 
   # 作者的社交信息设置
   [params.social]
-    GitHub = "https://github.com/nonizhao"
+    GitHub = "https://github.com/monizhao"
     Linkedin = ""
     Twitter = "xxxx"
     Instagram = "xxxx"
