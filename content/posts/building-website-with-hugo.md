@@ -149,7 +149,7 @@ cp themes/LoveIt/archetypes/default.md archetypes
     pre = "<i class=\"fab fa-github fa-fw\"></i>"
     post = ""
     name = ""
-    url = "https://github.com/swallowblack"
+    url = "https://github.com/monizhao"
     title = "GitHub"
     weight = 4
   [[menu.main]]
@@ -157,7 +157,7 @@ cp themes/LoveIt/archetypes/default.md archetypes
     pre = "<i class=\"fa fa-rss fa-fw\"></i>"
     post = ""
     name = ""
-    url = "https://swallowblack.github.io/posts/index.xml"
+    url = "https://monizhao.github.io/posts/index.xml"
     title = "RSS"
     weight = 5
 
@@ -187,10 +187,10 @@ cp themes/LoveIt/archetypes/default.md archetypes
 Linking Images with figure shortcode
 
 ```Markdown
-{?{}{< figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://swallowblack.github.io/osprey-back/" width=50% >}}
+{?{}{< figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://monizhao.github.io/osprey-back/" width=50% >}}
 ```
 
-{{< figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://swallowblack.github.io/osprey-back/" width=50% >}}
+{{< figure src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" title="osprey" link="https://monizhao.github.io/osprey-back/" width=50% >}}
 
 如果在站点配置中设置
 ```shell
